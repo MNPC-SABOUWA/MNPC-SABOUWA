@@ -1,0 +1,80 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+# Archives locales
+*.zip
+
+# Sauvegardes locales
+backup/
+
+# Secrets serveur
+server/.env
+server/.env.*
+!server/.env.example
+
+# Dépôt Git imbriqué du serveur
+server/.git/
+# Archives locales
+*.zip
+
+# Sauvegardes locales
+backup/
+
+# Environnement Python
+server/.venv/
+
+# Dépôt Git interne du serveur
+server/.git/
+
+# Secrets du serveur
+server/.env
+server/.env.*
+!server/.env.example
+
+# Fichiers de test locaux contenant potentiellement des données
+server/login.json
+server/openapi_test.json
+# Fichiers de sauvegarde locaux
+*.bak
